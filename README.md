@@ -26,7 +26,7 @@
         - psycopg2
 1. run make
 
-## optional
+## optional (but highly recommended, so the bot runs every 10 seconds repeatedly)
 install the systemd service & timer
 1. make -C systemd
 
