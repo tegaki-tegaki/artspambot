@@ -1,0 +1,1 @@
+ALTER TABLE draws ADD COLUMN name text UNIQUE;
