@@ -1,7 +1,7 @@
 # artspambot
 
 ## READ THIS FIRST (important tidbits)
-- when things go wrong, the artspambot may very well 'spam' your social media outlets. If you have no fans & followers however, you have nothing to lose! (or rather, no followers to dissapoint / spam)
+- when things go wrong, the artspambot may very well 'spam' your social media outlets. If you have no fans & followers however, you have nothing to lose! (or rather, no followers to disappoint / spam)
 - when I made this, i made it for myself... so it's not guaranteed to work for others, and I _know_ there's work to be done before this becomes user friendly!... the code comes as-is.
 - swapping out postgres for sqlite is currently an exercise to the reader! (note. it's _most_ likely easier to swap out postgres than to do the whole postgres + flyway setup described here... YMMV).
 
@@ -30,5 +30,5 @@ install the systemd service & timer
 
 ## todo
 1. move all the <YOUR_*> strings into a single place... configuration file?
-1. sqllite db maybe? so 'setting up the db' becomes less of a hassle for most
+1. sqlite db maybe? so 'setting up the db' becomes less of a hassle for most
 1. requirements.txt or some vendoring + virtualenv for python (or docker?)
