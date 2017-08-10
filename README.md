@@ -13,7 +13,7 @@
     - download postgres
     - copy `flyway.conf.template` into `flyway.conf`, and fill in passwords, secrets...etc
     - run `flyway migrate` inside the postgres directory ()
-    - role `artspambot` exists, also set password in Makefile env
+    - make sure the role `artspambot` exists, also set password in Makefile env
 1. ensure your python is set up
     - python version 3.5 or above
     - all the required libraries installed:
