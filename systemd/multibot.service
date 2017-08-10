@@ -1,0 +1,13 @@
+[Unit]
+Description=artspambot.py, for all your needs
+
+[Service]
+Environment=NEWDRAWS_PG_PASSWORD=<YOUR_POSTGRES_PASSWORD_HERE>
+WorkingDirectory=<DIRECTORY/WHERE/THE/BOT/SHOULD/RUN>
+ExecStart=/usr/bin/python3.6 <THE_REPO_YOU_CLONED>/artspambot.py
+User=j
+Restart=on-failure
+RestartSec=1800
+
+[Install]
+WantedBy=default.target
